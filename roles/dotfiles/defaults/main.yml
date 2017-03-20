@@ -1,0 +1,15 @@
+---
+
+dotfiles_repo: "https://github.com/dockerized89/dotfiles.git"
+dotfiles_accept_hostkey: no
+
+dotfiles_repo_local_dir: "{{'~' | expanduser }}/dotfiles"
+dotfiles_home: "{{ '~' | expanduser }}"
+dotfiles_files:
+  - .vimrc
+#  - .inputrc
+#  - .zshrc
+#  - .bash_profile
+#  - .profile
+#  - .bash_prompt
+#   - .aliases
